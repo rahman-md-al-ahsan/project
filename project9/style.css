@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* nav-start */
+nav{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+nav .logo{
+    font-size: 25px;
+    padding: 20px;
+}
+nav a{
+    text-decoration: none;
+    
+}
+nav a h2{
+    color: black;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    
+}
+nav ul a{
+    text-decoration: none;
+    padding: 15px;
+    font-size: 20px;
+    color: black;
+}
+/* nav-end */
+
+/* header-start */
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 30px;
+    max-width: 1000px;
+    margin: 5% auto;
+    
+}
+
+.headname h5{
+    color: #4A5568;
+    
+}
+header img{
+    border-radius: 15%;
+}
+
+@media screen and(max-width:600px) {
+    header{
+        margin-left:70%;
+    }
+    
+}
+
+
+/* header-end */
+
+/* establish-start */
+
+.establish{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+    height: 100%;
+    
+
+}
+
+.font h2{
+    padding: 20px 0 ;
+}
+.font2{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0 ;
+}
+.bigimg{
+    padding: 10px;
+    
+}
+.establish a{
+    text-decoration: none;
+    color: black;
+}
+
+.establish p,h5{
+    
+    color: #4A5568;
+}
+
+@media  screen and (max-width:700px) {
+
+    .establish{
+        flex-wrap: wrap;
+        margin-left: 10%;
+    }
+
+    
+}
+
+/* establishe-end */
+
+
+/* card-start */
+
+.card-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    flex-wrap: wrap;
+   
+}
+.card{
+    width: 330px;
+}
+.imge img{
+    padding: 20px 0;
+    
+}
+.text p{
+    font-size: 12px;
+    padding: 10px 0;
+    color: #4A5568;
+    
+}
+.date{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10%;
+}
+.date a{
+    text-decoration: none;
+    color: black;
+}
+@media screen and (max-width:900px) {
+    .card{
+        padding: 10px;
+    }
+    
+}
+@media screen and (max-width:700px){
+    .card-container{
+        
+         margin-left: 10%;
+    }
+}
+/* card-end */
+
+/* lorem-start */
+
+.lorem-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    margin-top: 5%;
+    flex-wrap: wrap;
+    
+}
+.loremtext h1{
+    font-size: 50px;
+    padding: 30px 0;
+}
+.loremtext p{
+    color: #4A5568;
+}
+.lorem-image img{
+    width: 700px;
+    height: 400px;
+
+}
+.date{
+    padding: 20px 0;
+}
+@media screen and(max-width:600px) {
+    .lorem-image img{
+        width: 60px;
+        height: 60px;
+    }
+    lorem-container{
+        flex-wrap: wrap;
+    }
+}
+
+
+/* lorem-end */
+
+
+/* footer-start */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 5% auto;
+    max-width: 1150px;
+}
+
+footer ul{
+    display: flex;
+    list-style: none;
+    
+}
+footer ul a{
+    text-decoration: none;
+    padding: 15px;
+    font-size: 20px;
+    color: black;
+}
+/* footer-end */
+
+/* nav-start */
+nav{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+nav .logo{
+    font-size: 25px;
+    padding: 20px;
+}
+nav a{
+    text-decoration: none;
+    
+}
+nav a h2{
+    color: black;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    
+}
+nav ul a{
+    text-decoration: none;
+    padding: 15px;
+    font-size: 20px;
+    color: black;
+}
+/* nav-end */
+
+.head{
+    max-width: 900px;
+    margin: 3% auto;
+}
+.head img{
+    width: 900px;
+}
+
+.spn{
+    display: flex;
+}
+.spn h4,span{
+    padding: 10px 10px;
+    margin-left: -1%;
+}
+.spn span{
+    color: #718096;
+    
+}
+.textarea{
+    max-width: 900px;
+    margin: 0 auto;
+    
+}

@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    margin: 0;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(240, 240, 234);
+
+}
+
+/* fst-section-start */
+
+
+.image1{
+    background-image: url(img/863ac470511aeebdd4d8d82511b10009.jfif);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    min-height: 100vh;
+    position: relative;
+    background-attachment: fixed;
+    
+}
+
+
+.text{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    
+    padding: 5px 5px;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 9px;
+    
+
+    
+}
+.prtext{
+    color: rgb(243, 239, 239);
+    background-color: rgb(117, 102, 102);
+    padding: 12px;
+    text-transform: uppercase;
+}
+/* fst-section-end */
+
+.txt{
+    width: 100%;
+    text-align: center;
+    color: black;
+}
+.h1{
+    font-size: 30px;
+    letter-spacing: 9px;
+    text-transform: uppercase;
+    padding: 15px;
+    margin-top: 10px;
+    
+}
+.lorem{
+    padding: 30px;
+    
+    
+}
+.secend{
+    background-image: url(img/a36217807f24339e89dd387fbcb44306.jfif);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-attachment: fixed;
+}
+.explore{
+   position: absolute;
+   font-size: 2.5rem;
+   top: 30%;
+   text-align: center;
+   min-width: 100%;
+   text-transform: uppercase;
+   
+   
+}
+.section2{
+    position: absolute;
+    margin-top: 32%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 34%;
+    flex-grow: 1;
+    
+    background-color: green;
+    flex-wrap: wrap;
+}
+.two{
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    margin-top: 40px;
+    
+   
+}
+.image3{
+    background-image: url(img/f78c783ddb91c8558d93de414476dd85.jfif);
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    
+    
+}
+.h3{
+    position: absolute;
+    font-size: 2.5rem;
+    top: 30%;
+    text-align: center;
+    min-width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    color: rgb(241, 228, 228);
+}
+.three{
+    position: absolute;
+    
+    text-align: center;
+    margin-top: 510px;
+    padding: 20px; 
+    background-color: #666;
+}
+.secthree{
+    font-size: 30px;
+    letter-spacing: 5px;
+    padding: 15px;
+    text-transform: uppercase;
+}
+.last{
+    background-image: url(img/f78c783ddb91c8558d93de414476dd85.jfif);
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    margin-top: 50px;
+}
+.some{
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    min-width: 100%;
+    color: #f5ebeb;
+    font-size: 30px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    
+}
+.do{
+    background-color: #666;
+    padding: 10px;
+    
+}

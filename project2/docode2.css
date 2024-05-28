@@ -1,0 +1,78 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: grey;
+}
+.container{
+  max-width: 900px;
+  margin: 0 auto;
+  
+}
+
+.applybox{
+  max-width: 608px;
+  margin: 0 auto;
+  background-color: rgb(248, 248, 247);
+  margin-top: 20px;
+  padding: 20px;
+  
+}
+.font{
+  font-size: 20px;
+}
+
+/* first and last name start */
+.name{
+  
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+#name{
+  height: 30px;
+  width:15rem;
+  padding: 3px;
+  flex-grow: 1;
+}
+.fname{
+   display:flex;
+   flex-direction: column;
+   padding: 5px;
+  
+}
+button{
+  
+  margin-top: 30px;
+  padding: 6px 5px;
+  font-size: 17px;
+  background-color: brown;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+
+ 
+ 
+}
+button:hover{
+  background-color: rgb(124, 118, 118);
+  transition: 0.3s;
+}
+input:hover{
+  border-color: rgb(214, 41, 11);
+
+}
+
+
+
+
+
+
+
+
+
+
+

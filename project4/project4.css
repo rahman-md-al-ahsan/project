@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mother{
+    
+   
+    max-width: 100%;
+}
+/* <!-- header-start --> */
+.header{
+    background-image: url(imge/b71b0744d36e2ae7dd639763e7992154.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    position: relative;
+    
+
+}
+.text{
+   
+   
+    position: absolute;
+    top: 7%;
+    left:26%;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.mtxt{
+    
+   font-size: 50px;
+   font-weight: 100px;
+   line-height: 80px;
+   
+}
+.black-box{
+    background-color: #161619;
+    height: 150px;
+    min-width: 100%;
+    color: #ffffff;
+    text-align: center;
+    
+    
+}
+.you{
+    font-size: 70px;
+}
+.txt{
+    font-size: 40px;
+    padding: 30px;
+}
+/* <!-- header-end --> */
+
+
+/* <!-- three-content-start --> */
+
+ .three-content{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  height: 100%;
+  padding: 20px;
+  
+    
+ }
+ .three{
+    width: 300px;
+    height:100%;
+    box-shadow: 5px 5px 5px 5px grey;
+    
+    transition: 0.4s ease-in-out;
+ }
+ .image{
+      width: 300px;
+      height: 200px;
+      
+
+ }
+ .three .web{
+    padding: 10px;
+ }
+ .three:hover{
+    transform: scale(1.04);
+    transition: 0.4s ease-in-out;
+    box-shadow: 5px 5px 5px 5px grey;
+ }
+ 
+/* <!-- three-content-end --> */
+
+
+/* footer-start */
+
+
+.footer{
+   display: flex;
+   flex-direction: column;
+   
+   height: 100%;
+    
+    
+}
+.main{
+
+
+    display: flex;
+    justify-content: center;
+    
+    
+    
+    
+    
+    
+}
+
+.contact{
+    background-color: rgb(165, 87, 36);
+    height: 8%;
+    padding: 20px;
+   
+}
+.about{
+    background-color: rgb(146, 133, 133);
+    height:8%;
+    padding: 20px;
+}
+.last{
+    background-color: rgb(19, 13, 13);
+    color: white;
+    height: 100px;
+    text-align: center;
+    padding: 40px;
+    font-size: 30px;
+}
+
+
+/* footer-end */

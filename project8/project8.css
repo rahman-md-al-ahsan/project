@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    
+    
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+/* header-start */
+
+header{
+    color: black;
+    height: 100%;
+    border: 1px solid black;
+    display: flex;
+    scroll-behavior: smooth;
+    
+    
+   
+
+}
+aside{
+    
+    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+    
+   
+    
+    
+}
+aside a  {
+    text-decoration: none;
+   
+    
+    
+
+}
+aside h1{
+    padding:25px 15px;
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    
+}
+ aside ul  {
+    list-style: none;
+    font-size: 25px;
+     
+    
+
+}
+aside ul li{
+    border: 1px solid rgb(20, 20, 20);
+    padding: 10px;
+    color: black;
+    
+    
+}
+aside ul li:hover{
+    background-color: black;
+    color: white;
+}
+
+/* header-end */
+
+
+main{
+    margin-left: 30px;
+    max-width: 1000px;
+    margin: 20px auto;
+  
+    
+}
+main h1{
+    padding: 10px 7px;
+    text-align: start;
+    text-decoration: none;
+    color: black;
+}
+main  a{
+    text-decoration: none;
+}
+main p{
+    padding: 10px;
+}
+main ul{
+    margin-left: 4%;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+main ul li{
+    padding: 5px;
+}
+.hello{
+    padding: 10px;
+}
+.code {
+   background:gray;
+   padding: 20px;
+   font-size: 25px;
+}
+@media screen and (max-width: 770px) {
+    
+body{
+    flex-wrap: wrap;
+    
+}
+header{
+    margin-left: 25%;
+    
+}
+
+
+}
